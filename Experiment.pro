@@ -4,3 +4,6 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp
+LIBS +=-lglut
+LIBS+=-lGL\
+ -lGLU
